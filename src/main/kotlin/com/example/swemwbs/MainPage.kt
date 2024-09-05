@@ -16,7 +16,7 @@ class MainPage {
     @FXML
     fun startQuestions(event: MouseEvent) {
         val fxmlLoader = FXMLLoader(HelloApplication::class.java.getResource("page1.fxml"))
-        val scene = Scene(fxmlLoader.load(), 320.0, 240.0)
+        val scene = Scene(fxmlLoader.load())
         val stage = (event?.source as Node).scene.window as Stage
         stage.scene = scene
         stage.show()
