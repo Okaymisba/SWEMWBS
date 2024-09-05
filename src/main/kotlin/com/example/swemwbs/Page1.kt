@@ -10,7 +10,7 @@ import javafx.stage.Stage
 class Page1 {
 
     @FXML
-    fun allTime(event: MouseEvent) {
+    fun allTime1(event: MouseEvent) {
         val fxmlLoader = FXMLLoader(HelloApplication::class.java.getResource("page2.fxml"))
         val scene = Scene(fxmlLoader.load())
         val stage = (event?.source as Node).scene.window as Stage
@@ -20,7 +20,7 @@ class Page1 {
     }
 
     @FXML
-    fun noneOfTime(event: MouseEvent) {
+    fun noneOfTime1(event: MouseEvent) {
         val fxmlLoader = FXMLLoader(HelloApplication::class.java.getResource("page2.fxml"))
         val scene = Scene(fxmlLoader.load())
         val stage = (event?.source as Node).scene.window as Stage
@@ -30,7 +30,7 @@ class Page1 {
     }
 
     @FXML
-    fun often(event: MouseEvent) {
+    fun often1(event: MouseEvent) {
         val fxmlLoader = FXMLLoader(HelloApplication::class.java.getResource("page2.fxml"))
         val scene = Scene(fxmlLoader.load())
         val stage = (event?.source as Node).scene.window as Stage
@@ -40,7 +40,7 @@ class Page1 {
     }
 
     @FXML
-    fun rarely(event: MouseEvent) {
+    fun rarely1(event: MouseEvent) {
         val fxmlLoader = FXMLLoader(HelloApplication::class.java.getResource("page2.fxml"))
         val scene = Scene(fxmlLoader.load())
         val stage = (event?.source as Node).scene.window as Stage
@@ -50,7 +50,7 @@ class Page1 {
     }
 
     @FXML
-    fun someTime(event: MouseEvent) {
+    fun someTime1(event: MouseEvent) {
         val fxmlLoader = FXMLLoader(HelloApplication::class.java.getResource("page2.fxml"))
         val scene = Scene(fxmlLoader.load())
         val stage = (event?.source as Node).scene.window as Stage
