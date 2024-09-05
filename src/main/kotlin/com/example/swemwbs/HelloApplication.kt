@@ -9,6 +9,7 @@ class HelloApplication : Application() {
     override fun start(stage: Stage) {
         val fxmlLoader = FXMLLoader(HelloApplication::class.java.getResource("main_page.fxml"))
         val scene = Scene(fxmlLoader.load())
+        stage.title = "The Short Warwick-Edinburgh Mental Wellbeing Scale"
         stage.scene = scene
         stage.show()
     }
