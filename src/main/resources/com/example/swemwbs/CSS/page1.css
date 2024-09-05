@@ -1,0 +1,14 @@
+.button{
+    -fx-background-color: #FFFFFF;
+    -fx-border-color:  #08A04B;
+    -fx-border-radius: 4;
+}
+
+.button:hover {
+    -fx-background-color: #08A04B;  /* Change background color on hover */
+}
+
+/* Pressed state */
+.button:pressed {
+    -fx-background-color: #08A04B;  /* Change background color when clicked */
+}
