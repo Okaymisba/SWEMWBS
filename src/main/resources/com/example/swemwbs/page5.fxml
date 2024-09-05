@@ -9,7 +9,7 @@
 
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.swemwbs.Page5">
     <children>
-        <AnchorPane prefHeight="568.0" prefWidth="697.0" stylesheets="@CSS/page1.css">
+        <AnchorPane prefHeight="568.0" prefWidth="697.0" stylesheets="@CSS/button.css">
             <children>
                 <Text layoutX="207.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I Have Been Thinking Clearly" wrappingWidth="434.05999755859375">
                     <font>
