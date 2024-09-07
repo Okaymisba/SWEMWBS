@@ -1,0 +1,2 @@
+JAVA_VERSION="17.0.12"
+MODULES="java.base com.example.merged.module java.datatransfer java.xml java.prefs java.desktop javafx.base jdk.unsupported javafx.graphics javafx.controls java.scripting javafx.fxml kotlin.stdlib java.logging java.net.http org.controlsfx.controls com.example.swemwbs jdk.internal.vm.ci"
