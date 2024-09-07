@@ -11,51 +11,71 @@ class Page4 {
 
     @FXML
     fun allTime4(event: MouseEvent) {
+        val point = 5
+        updateScale(point)
+
         val fxmlLoader = FXMLLoader(HelloApplication::class.java.getResource("page5.fxml"))
         val scene = Scene(fxmlLoader.load())
         val stage = (event.source as Node).scene.window as Stage
         stage.scene = scene
         stage.show()
+
 
     }
 
     @FXML
     fun noneOfTime4(event: MouseEvent) {
+        val point = 1
+        updateScale(point)
+
         val fxmlLoader = FXMLLoader(HelloApplication::class.java.getResource("page5.fxml"))
         val scene = Scene(fxmlLoader.load())
         val stage = (event.source as Node).scene.window as Stage
         stage.scene = scene
         stage.show()
+
 
     }
 
     @FXML
     fun often4(event: MouseEvent) {
+        val point = 4
+        updateScale(point)
+
         val fxmlLoader = FXMLLoader(HelloApplication::class.java.getResource("page5.fxml"))
         val scene = Scene(fxmlLoader.load())
         val stage = (event.source as Node).scene.window as Stage
         stage.scene = scene
         stage.show()
+
 
     }
 
     @FXML
     fun rarely4(event: MouseEvent) {
+        val point = 2
+        updateScale(point)
+
         val fxmlLoader = FXMLLoader(HelloApplication::class.java.getResource("page5.fxml"))
         val scene = Scene(fxmlLoader.load())
         val stage = (event.source as Node).scene.window as Stage
         stage.scene = scene
         stage.show()
+
 
     }
 
     @FXML
     fun someTime4(event: MouseEvent) {
+        val point = 3
+        updateScale(point)
+
         val fxmlLoader = FXMLLoader(HelloApplication::class.java.getResource("page5.fxml"))
         val scene = Scene(fxmlLoader.load())
         val stage = (event.source as Node).scene.window as Stage
         stage.scene = scene
         stage.show()
+
 
     }
 
