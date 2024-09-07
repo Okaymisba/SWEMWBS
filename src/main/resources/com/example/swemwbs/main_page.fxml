@@ -28,6 +28,11 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
+            <Text layoutX="80.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello! Ready to Assess Your Well-Being?" wrappingWidth="497.2099609375">
+               <font>
+                  <Font name="Liberation Sans Narrow Bold" size="30.0" />
+               </font>
+            </Text>
          </children>
       </AnchorPane>
    </children>

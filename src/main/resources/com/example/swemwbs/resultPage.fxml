@@ -26,7 +26,7 @@
                   <Font name="C059-Bold" size="15.0" />
                </font>
             </Text>
-            <Button layoutX="577.0" layoutY="373.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="69.0" text="Home" />
+            <Button layoutX="577.0" layoutY="373.0" mnemonicParsing="false" onMouseClicked="#home" prefHeight="30.0" prefWidth="69.0" text="Home" />
          </children>
       </AnchorPane>
    </children>

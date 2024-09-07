@@ -15,3 +15,7 @@ fun calculateScale(scale: List<Int>): Int {
     return scoredPoints
 }
 
+fun clearList(fullList: MutableList<Int>) {
+    fullList.clear()
+}
+
